@@ -11,9 +11,12 @@ Everything runs in the browser. There is no server, no account and no build step
 - **Rep exercises** have a target and an **Auto** mode that counts up by itself at a Slow (3.0 s), Normal (2.0 s) or Fast (1.2 s) pace, with a tick on each rep. You can also tap the big red button to count manually.
 - **Timed exercises** (plank, wall sit, stretches and so on) have a target in seconds. The analog stopwatch stops itself and beeps when time is up.
 
+- **Exercise demos:** tap the 🎬 icon next to any exercise name for a looping stick-figure animation and a one-line form tip. The small red **YouTube** icon next to it opens a search for real videos of that exercise (needs internet).
+
 **Routines**
 - Build a routine once with **＋ Add exercise**, set each exercise's target, then press **Start routine** and everything plays in order.
 - Starts with a 5-second "Get ready", then adds a rest between exercises (0–120 s, you choose).
+- **Rounds:** choose how many rounds (1-20) and the rest between rounds. The routine then repeats in order, round after round, with the coach announcing each one. You can also say "start routine with 3 rounds".
 - Pause, skip or stop at any time. Skipping or stopping saves whatever you finished.
 - Reorder with ↑ ↓ or remove with ×.
 - **Presets** add a whole routine in one tap: Quick warm-up, Leg day, Upper body, Core crusher, Cardio blast and Cool-down. They stack, so you can chain warm-up, workout and cool-down.
@@ -26,8 +29,8 @@ Everything runs in the browser. There is no server, no account and no build step
 **Dials, goals and history**
 - Three analog dials: **Reps**, **Active minutes** and **Burn** (estimated calories).
 - **Goals set themselves.** Nothing to type. See [How the goals work](#how-the-goals-work).
-- A 7-day bar chart of reps, plus your streak and active time for the week.
-- The **Log** is a ledger page for today. Doing the same exercise again updates its existing entry instead of adding a duplicate, for example "Push-ups, 35 reps (2×)".
+- A bar chart of reps for the current week (Monday to Sunday), plus your streak and active time for the week.
+- The **Log** is a ledger page for today. It shows your 4 latest entries by default, with a **▾ Show all** button to expand the full scrolling list. Use the **◀ ▶** arrows to look back at the exercises you did on earlier days (up to 60 days). Doing the same exercise again updates its existing entry instead of adding a duplicate, for example "Push-ups, 35 reps (2×)".
 
 **Installable**
 - Works as a Progressive Web App: add it to your home screen, open it full screen and use it offline after the first visit.
@@ -115,7 +118,7 @@ README.md             this file
 
 ## Your data
 
-Everything is stored in your browser's local storage on your own device (today's log, a daily history for the chart and goals, your routine, body weight and voice setting). Nothing is sent anywhere. Because it is stored locally:
+Everything is stored in your browser's local storage on your own device (each day's exercise list, daily totals for the chart and goals, your routine, body weight and voice setting). Nothing is sent anywhere. Because it is stored locally:
 
 - Each phone or browser keeps its own separate history.
 - Clearing the site's data erases your history.
