@@ -32,6 +32,9 @@ Everything runs in the browser. There is no server, no account and no build step
 - A bar chart of reps for the current week (Monday to Sunday), plus your streak and active time for the week.
 - The **Log** is a ledger page for today. It shows your 4 latest entries by default, with a **▾ Show all** button to expand the full scrolling list. Use the **◀ ▶** arrows to look back at the exercises you did on earlier days (up to 60 days). Doing the same exercise again updates its existing entry instead of adding a duplicate, for example "Push-ups, 35 reps (2×)".
 
+**Themes**
+- The 🎨 button in the header switches between **Walnut** (dark wood), **Oak** (light wood) and **Midnight**. It also changes the colour of your phone's status bar, so the clock and battery icons stay readable. Your choice is remembered, and you can say "change theme".
+
 **Installable**
 - Works as a Progressive Web App: add it to your home screen, open it full screen and use it offline after the first visit.
 
