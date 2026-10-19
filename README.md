@@ -14,16 +14,18 @@ Everything runs in the browser. There is no server, no account and no build step
 - **Exercise demos:** tap the 🎬 icon next to any exercise name for a looping stick-figure animation and a one-line form tip. The small red **YouTube** icon next to it opens a search for real videos of that exercise (needs internet).
 
 **Routines**
+- **Routine cards:** the Routine tab is a stack of cards. The first is your **Daily routine**: pick exercises from Strength, Core, Cardio or Stretch with **＋ Add exercise** and they appear inside that card. Below it, **📦 Add preset** adds ready-made workouts (Quick warm-up, Leg day, Knee stability and more) as their own cards. **Tap any card to start that workout.** Each card has **✎ Edit** (rounds, rests, reorder, remove exercises) and **🗑 Delete** (two taps; on the Daily routine it clears the exercises). A finished card is outlined green with a ✔. You can say "start leg day", "start daily routine" or "start routine" (the first one you haven't done today).
 - Build a routine once with **＋ Add exercise**, set each exercise's target, then press **Start routine** and everything plays in order.
-- Starts with a 5-second "Get ready", then adds a rest between exercises (0–120 s, you choose).
+- Starts with an 8-second "Get ready", then adds a rest between exercises (0–120 s, you choose).
 - **Rounds:** choose how many rounds (1-20) and the rest between rounds. The routine then repeats in order, round after round, with the coach announcing each one. You can also say "start routine with 3 rounds".
 - Pause, skip or stop at any time. Skipping or stopping saves whatever you finished.
 - Reorder with ↑ ↓ or remove with ×.
-- **Presets** add a whole routine in one tap: Quick warm-up, Leg day, Upper body, Core crusher, Cardio blast and Cool-down. They stack, so you can chain warm-up, workout and cool-down.
-- Your routine is remembered between visits.
+- **Presets** add a whole routine in one tap: Quick warm-up, Knee stability, Leg day, Upper body, Core crusher, Cardio blast and Cool-down. They stack, so you can chain warm-up, workout and cool-down.
+- Your workouts are remembered between visits.
 
 **Voice coach and commands**
 - 🔊 The coach counts reps aloud and announces each exercise, rests and "routine complete".
+- ⏱ On every timer the coach counts down the last five seconds aloud (5, 4, 3, 2, 1): timed exercises, the routine's timed exercises and rests, and the "Get ready" countdown. It stays silent while paused or when the coach is muted.
 - 🎤 Hands-free commands (see below).
 
 **Dials, goals and history**
@@ -98,6 +100,11 @@ Any static host works the same way (Netlify, Cloudflare Pages, Vercel). It must 
 ## Updating the app
 
 After you change `index.html`, bump the cache version in `sw.js` (for example `iron-club-v1` → `iron-club-v2`) and push. Without that, phones keep serving the old cached copy.
+
+
+## Updating without losing your history
+
+Your history (each day's exercises, the weekly chart, streak, active time, workout cards and settings) is saved in your browser for your site's address. Updating the files on the same GitHub Pages address does **not** touch it. It is only lost if you clear the site's data in your browser, open the app from a different address (for example the preview link instead of your GitHub link) or use a different browser or phone, since each keeps its own copy. Always keep using the same GitHub Pages link.
 
 ## Customising
 
