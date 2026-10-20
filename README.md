@@ -7,7 +7,7 @@ Everything runs in the browser. There is no server, no account and no build step
 ## Features
 
 **Train**
-- About 45 exercises in four groups: **Strength**, **Core**, **Cardio** and **Stretch**.
+- More than 50 exercises in five groups: **Legs**, **Arms**, **Core**, **Cardio** and **Stretch** (arms include push-ups, diamond push-ups, tricep dips, backpack curls and backpack rows).
 - **Rep exercises** have a target and an **Auto** mode that counts up by itself at a Slow (3.0 s), Normal (2.0 s) or Fast (1.2 s) pace, with a tick on each rep. You can also tap the big red button to count manually.
 - **Timed exercises** (plank, wall sit, stretches and so on) have a target in seconds. The analog stopwatch stops itself and beeps when time is up.
 
@@ -20,7 +20,7 @@ Everything runs in the browser. There is no server, no account and no build step
 - **Rounds:** choose how many rounds (1-20) and the rest between rounds. The routine then repeats in order, round after round, with the coach announcing each one. You can also say "start routine with 3 rounds".
 - Pause, skip or stop at any time. Skipping or stopping saves whatever you finished.
 - Reorder with ↑ ↓ or remove with ×.
-- **Presets** add a whole routine in one tap: Quick warm-up, Knee stability, Leg day, Upper body, Core crusher, Cardio blast and Cool-down. They stack, so you can chain warm-up, workout and cool-down.
+- **Presets** add a whole routine in one tap: Quick warm-up, Knee stability, Arms & abs, Legs & glutes, Fat-burn finisher, Leg day, Upper body, Core crusher, Cardio blast and Cool-down. They stack, so you can chain warm-up, workout and cool-down.
 - Your workouts are remembered between visits.
 
 **Voice coach and commands**
